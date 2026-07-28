@@ -1,2 +1,2 @@
 # DSA-JAVA
-Leetcode practice
+Leetcode practice and doing DSA problem
