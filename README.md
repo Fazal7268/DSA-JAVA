@@ -41,18 +41,3 @@ Data Structures and Algorithms practice repository in Java.
 
 ### Graphs & Search
 - [Water Jug Problem (BFS)](src/graphs/WaterJugBFS.java)
-
----
-
-## Running the Code
-
-Compile all solutions:
-\\ash
-javac -d out (Get-ChildItem -Recurse -Filter '*.java' src).FullName
-\
-Run any specific solution, for example:
-\\ash
-java -cp out arrays.TwoSum
-java -cp out graphs.WaterJugBFS
-java -cp out backtracking.NQueens
-\
