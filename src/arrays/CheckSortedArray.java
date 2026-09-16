@@ -1,6 +1,8 @@
+package arrays;
+
 import java.util.*;
 
-class CH {
+class CheckSortedArraySolution {
     public boolean isSorted(ArrayList<Integer> nums) {
         int i = 0;
         int left = 0;
@@ -20,16 +22,16 @@ class CH {
                 right++;
                 i++;
             }
-        }return sort;
+        }
+        return sort;
     }
 }
 
-public class Q_S {
+public class CheckSortedArray {
     public static void main(String[] args) {
-        CH solution = new CH();
+        CheckSortedArraySolution solution = new CheckSortedArraySolution();
         ArrayList<Integer> nums = new ArrayList<>(List.of(1, 2, 3, 4, 5));
         boolean result = solution.isSorted(nums);
         System.out.println(result ? "Array is sorted" : "Array is not sorted");
     }
-
 }
